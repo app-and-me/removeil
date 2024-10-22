@@ -1,0 +1,186 @@
+/* 헤더 */
+header {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 157px;
+    background-color: wi;
+}
+
+#logo-img {
+    width: 193px;
+    height: 31px;
+}
+
+.search-container {
+    width: 992px;
+    height: 62px;
+    background-color: #EBEBEB;
+    border-radius: 45px;
+    padding: 18px 25px;
+    display: flex;
+    box-sizing: border-box;
+    column-gap: 40px;
+}
+
+.search-bar {
+    width: 19px;
+    height: 27px;
+}
+
+.search-container > input {
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+/* 메뉴 */
+.menu-container {
+    display: flex;
+    align-items: center;
+    margin-top: 120px; 
+    margin-left: 150px;
+}
+
+.menu-list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu-item {
+    display: flex;
+    width: 107px;
+    height: 53px;
+    padding: 16px 14px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 28px;
+    border: 1px solid var(--foundation-grey-light-hover, #E0E0E0);
+}
+
+
+.menu-divider {
+    margin-left: 100px;
+    margin-right: 50px;
+    font-size: 32px;
+    color: #A2A2A2;
+}
+
+.organize-folder {
+    color: var(--Foundation-Red-Normal, #DD1618);
+    text-align: center;
+    font-family: "Pretendard Variable";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.add-category {
+    width: 41px;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* 메일 선택 섹션 */
+.select-mail-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding: 16px;
+    gap: 15px;
+    margin-left: 150px;
+
+}
+
+.mail-select-checkbox {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.dropdown-icon img {
+    width: 12px;
+    height: 9px;
+    cursor: pointer;
+}
+
+.delete-mail {
+    color: var(--foundation-grey-light-active, #C0C0C0);
+    font-family: "Pretendard Variable";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/* 메일 아이템 */
+.mail-item {
+    display: flex;
+    align-items: center;
+    /* margin-top: 16px; */
+    padding: 16px;
+    padding-left: 250px;
+    border: 1px solid #DCDCDD;
+    gap: 240px;
+}
+
+.mail-info {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.mail-checkbox {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.warning-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.mail-name {
+    color: #000;
+    text-align: center;
+    font-family: "Pretendard Variable";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.info {
+    display: flex;
+    gap: 550px;
+}
+
+.mail-content {
+    color: #000;
+    text-align: center;
+    font-family: "Pretendard Variable";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 650px;
+}
+
+.mail-time {
+    color: var(--foundation-grey-light-active, #C0C0C0);
+    font-family: "Pretendard Variable";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
