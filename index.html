@@ -8,11 +8,13 @@
     <title>Removeil</title>
 </head>
 <body>
-    <form action="/" id="login-container">
+    <form id="login-container"> <!-- action 속성을 제거 -->
         <img src="/image/logo.png" alt="" class="logo">
         <input type="text" placeholder="이메일 주소 입력" required>
-        <input type="password" placeholder="패스워드 입력"required>
-        <button onclick="window.location.href='mail.html'">로그인</button>
+        <input type="password" placeholder="패스워드 입력" required>
+        <button type="submit">로그인</button>
     </form>
+
+    <script src="/js/index.js"></script>
 </body>
 </html>

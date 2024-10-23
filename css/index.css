@@ -6,28 +6,26 @@
 }
 
 #login-container img {
-    width: min(100%, 771px);
-    height: 138px;
+    width: min(100%, 571px);
+    height: 120px;
     margin-bottom: 92px;
 }
 
 input {
-    width: 916px;
-    height: 109px;
-    flex-shrink: 0;
+    width: 520px;
+    height: 69px;
     border-radius: 10px;
     border: 2px solid #E0E0E0;
     color: #C0C0C0;
-    font-size: 32px;
+    font-size: 20px;
     font-weight: 400;
-    padding-left: 40px;
+    padding-left: 30px;
     outline: none;
 }
 
 input::placeholder {
     color: var(--foundation-grey-light-active, #C0C0C0);
-    font-size: 32px;
-    font-style: normal;
+    font-size: 20px;
     font-weight: 400;
 }
 
@@ -36,13 +34,13 @@ input:nth-last-child(2) {
 }
 
 button {
-    width: 614px;
-    height: 100px;
+    width: 350px;
+    height: 60px;
     border-radius: 45px;
     background: #DD1618;
     border: none;
-    color: #EBEBEB;
+    color: #fff;
     text-align: center;
-    font-size: 36px;
+    font-size: 26px;
     cursor: pointer;
 }
