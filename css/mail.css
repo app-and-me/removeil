@@ -15,6 +15,7 @@ header {
 
 .all-container{
     width: 100%;
+    height: 100vh;
 }
 
 .search-container {
@@ -64,6 +65,11 @@ header {
     gap: 20px;
     border-radius: 28px;
     border: 1px solid var(--foundation-grey-light-hover, #E0E0E0);
+}
+
+.menu-item:hover{
+    border: 1px solid  #DD1618;
+    color: #DD1618;
 }
 
 
@@ -152,17 +158,14 @@ header {
 
 .mail-name {
     color: #000;
-    text-align: center;
-    font-family: "Pretendard Variable";
     font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+    white-space: nowrap;
+    width: 60px;
 }
 
 .info {
     display: flex;
-    gap: 380px;
+    gap: 220px;
 }
 
 .mail-content {

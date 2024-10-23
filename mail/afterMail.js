@@ -1,4 +1,4 @@
-afterMail = [
+var beforeMail = [
     {
         "id": 1,
         "name": "Notion",
@@ -35,3 +35,4 @@ afterMail = [
         "date": "2024.10.8 10:3"
     }
 ]
+

@@ -71,3 +71,23 @@ var beforeMail = [
     }
 
 ]
+
+var mailListContainer = document.querySelector('.mail-list-container');
+
+ 
+beforeMail.forEach(function(mail) {
+    var mailItem = `
+        <div class="mail-item">
+            <div class="mail-info">
+                <input type="checkbox" class="mail-checkbox">
+                <img src="/image/warning.png" alt="" class="warning-icon">
+                <div class="mail-name">${mail.name}</div>
+            </div>
+            <div class="info">
+                <div class="mail-content">${mail.content}</div>
+                <div class="mail-time">${mail.date}</div>
+            </div>
+        </div>
+    `;
+    mailListContainer.innerHTML += mailItem; // 메일 항목을 동적으로 추가
+});
