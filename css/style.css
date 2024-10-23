@@ -5,23 +5,6 @@
     font-style: normal;
 }
 
-
-:root {
-
-    /* nav */
-    --nav-height: 140px;
-    --nav-item: 24px;
-
-    /* main */
-    --title: 36px;
-    --title-detail: 24px;
-
-    --title-color: rgba(255, 255, 255, 0.87);
-    --title-detail-color: rgba(255, 255, 255, 0.64);
-
-    --fff: #FFF;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -41,6 +24,7 @@ ol {
 a {
     text-decoration: none;
     color: #fff;
+    white-space: nowrap;
 }
 
 html,
