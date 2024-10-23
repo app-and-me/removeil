@@ -1,3 +1,4 @@
+// Sample JSON data
 var removeMail = [
     {
         "id": 1,
@@ -26,8 +27,7 @@ var removeMail = [
         "title": "Weekly Download: Experience Next Wave Country Tracks ...",
         "content": "Explore the expansive nature of next wave country with tracks from Shabooze....",
         "date": "2024.10.17 17:20"
-    }
-    ,
+    },
     {
         "id": 5,
         "name": "SoundCloud",
@@ -35,4 +35,33 @@ var removeMail = [
         "content": "Experience the gritty, experimental energy of lofi hip-hop w....",
         "date": "2024.10.15 13:29"
     }
-]
+];
+
+function createMailItem(mail) {
+    return `
+        <div class="mail-item">
+            <div class="mail-info">
+                <input type="checkbox" class="mail-checkbox">
+                <img src="/image/warning.png" alt="" class="warning-icon">
+                <div class="mail-name">${mail.name}</div>
+            </div>
+            <div class="info">
+                <div class="mail-content">${mail.title}</div>
+                <div class="mail-time">${mail.date}</div>
+            </div>
+        </div>
+    `;
+}
+
+function loadMails() {
+    const container = document.querySelector('.all-container');
+    const fragment = document.createDocumentFragment(); 
+
+    removeMail.forEach(mail => {
+        fragment.appendChild(new DOMParser().parseFromString(createMailItem(mail), 'text/html').body.firstChild);
+    });
+
+    container.appendChild(fragment); 
+}
+
+window.onload = loadMails;
