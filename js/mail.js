@@ -1,16 +1,18 @@
-    // Select the "Select All" checkbox and all individual mail checkboxes
-    const selectAllCheckbox = document.getElementById('select-all-checkbox');
-    const mailCheckboxes = document.querySelectorAll('.mail-checkbox');
+const selectAllCheckbox = document.getElementById('select-all-checkbox');
+const mailCheckboxes = document.querySelectorAll('.mail-checkbox');
 
-    // Add event listener to "Select All" checkbox
-    selectAllCheckbox.addEventListener('change', function() {
-        const isChecked = selectAllCheckbox.checked;
-        // Loop through each mail checkbox and set its checked state
-        mailCheckboxes.forEach(checkbox => {
-            checkbox.checked = isChecked;
-        });
+selectAllCheckbox.addEventListener('change', function() {
+    const isChecked = selectAllCheckbox.checked;
+    mailCheckboxes.forEach(checkbox => {
+        checkbox.checked = isChecked;
     });
+});  
 
-     
-
-     
+// AI 메뉴
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('ai-menu').addEventListener('click', function() {
+        setTimeout(function() {
+            window.location.href = '/afterMail.html';
+        }, 2000);
+    });
+});

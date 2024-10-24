@@ -1,4 +1,3 @@
-// Sample JSON data
 var removeMail = [
     {
         "id": 1,
