@@ -4,15 +4,9 @@
  
 
 ## Function 💡
-- 로그인(이메일 / 페스워드 입력)
-- 전체메일보기
-- 정리함
-  - 삭제 / 영구 삭제
-   - 읽은 메일
-   - 읽지 않은 메일
-   - 경고 메일
-   - 경고 권장 메일
-   - 해당 / 전체 메일 선택하기
+![image](https://github.com/user-attachments/assets/77769c0f-a137-4237-8be4-b6bde88fa218)
+
+ 
 
 <br>
 
